@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+  sans-serif;
+}
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url('./images/background.jpg');
+  background-repeat: no-repeat;
+  background-position:center;
+  justify-content: center;
+  text-align: center;
+  background-size: 100%;
+}
+.wrapper{
+  display:flex;
+  flex-basis: 0.5;
+  flex-direction: row;
+  background:backdrop;
+  backdrop-filter:blur(10px);
+  padding: 5rem 2rem;
+  box-shadow: 1px 1px 20px rgba(0,0,0,0.7);
+}
+.input-box h4{
+  color: black;
+}
+.input-box input{
+  padding: 1rem;
+  width: 50%;
+  border: none;
+  background: transparent; 
+  outline: 0;
+  color: black;
+  font-weight: 700;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+.input-box input::-webkit-inner-spin-button,
+.input-box input::-webkit-outer-spin-button{
+  display: none;
+}
+.convert-icon img{
+  width: 3rem;
+  transform: rotate(90deg);
+}
